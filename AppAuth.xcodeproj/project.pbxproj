@@ -377,6 +377,9 @@
 		60140F801DE4344200DA0DC3 /* OIDRegistrationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 60140F7F1DE4344200DA0DC3 /* OIDRegistrationResponse.m */; };
 		60140F831DE43BAF00DA0DC3 /* OIDRegistrationRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60140F821DE43BAF00DA0DC3 /* OIDRegistrationRequestTests.m */; };
 		60140F861DE43CC700DA0DC3 /* OIDRegistrationResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60140F851DE43CC700DA0DC3 /* OIDRegistrationResponseTests.m */; };
+		A58A883F20AA0F8C0043279D /* OIDDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 341741BE1C5D8243000EF209 /* OIDDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A58A886A20AA14C10043279D /* OIDURLQueryComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 341741D71C5D8243000EF209 /* OIDURLQueryComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A58A886B20AA16E80043279D /* OIDFieldMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 341741C31C5D8243000EF209 /* OIDFieldMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -877,6 +880,8 @@
 				343AAA6B1E83465500F9D36E /* AppAuth.h in Headers */,
 				343AAA6E1E83466B00F9D36E /* OIDAuthorizationUICoordinatorIOS.h in Headers */,
 				343AAAF21E83499000F9D36E /* OIDResponseTypes.h in Headers */,
+				A58A886B20AA16E80043279D /* OIDFieldMapping.h in Headers */,
+				A58A886A20AA14C10043279D /* OIDURLQueryComponent.h in Headers */,
 				343AAAF71E83499000F9D36E /* OIDTokenRequest.h in Headers */,
 				343AAAF41E83499000F9D36E /* OIDScopeUtilities.h in Headers */,
 				343AAAF81E83499000F9D36E /* OIDTokenResponse.h in Headers */,
@@ -894,6 +899,7 @@
 				343AAA6C1E83466B00F9D36E /* OIDAuthorizationService+IOS.h in Headers */,
 				343AAAE31E83499000F9D36E /* OIDAuthorizationRequest.h in Headers */,
 				343AAAF91E83499000F9D36E /* OIDTokenUtilities.h in Headers */,
+				A58A883F20AA0F8C0043279D /* OIDDefines.h in Headers */,
 				343AAAEC1E83499000F9D36E /* OIDError.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
